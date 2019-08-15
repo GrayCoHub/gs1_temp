@@ -1,0 +1,21 @@
+---
+title:  "My First Vignette"
+author: "Gray Smith"
+date:   "8/14/2019"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{My First Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(gs1)
+```
